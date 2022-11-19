@@ -1,0 +1,196 @@
+.corousel-div {
+  background: #222222;
+  .carousel {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%) !important;
+    height: auto;
+    max-height: 100vh;
+    .carousel-control-next,
+    .carousel-control-prev {
+      opacity: 1 !important;
+    }
+    img {
+      opacity: 0.8 !important;
+    }
+    .carousel-indicators .active {
+      width: 25px !important;
+    }
+    li {
+      width: 5px !important;
+      border-radius: 7px !important;
+      background-color: white !important;
+      height: 5px;
+    }
+    ol.carousel-indicators {
+      padding: 30px;
+      width: fit-content;
+      top: 75%;
+      left: 0%;
+    }
+    .carousel-caption {
+      right: 5%;
+      text-align: right;
+      background-color: black;
+      max-width: 300px;
+      left: auto;
+      padding: 5px;
+    }
+
+    .top-left {
+      position: absolute;
+      top: 25%;
+      left: 15%;
+      padding: 20px;
+      max-width: 360px;
+      .cHead {
+        letter-spacing: -0.73px !important;
+        font-family: Poppins !important;
+        font-style: italic;
+        font-size: 25px;
+        color: #ffffff;
+      }
+      .cSub {
+        color: #e8e8e8;
+      }
+    }
+  }
+  .card-img1 {
+    height: 240px;
+    position: relative;
+  }
+  .card-img2 {
+    height: 280px;
+      position: absolute;
+      left: 20%;
+      top: -18px;
+  }
+  .card-img3 {
+    height: 340px;
+      position: absolute;
+      left: 50%;
+      top: -45px;
+  }
+  .card{
+    background: #222222 0% 0% no-repeat padding-box;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    .digital1{
+      text-align: left;
+font: normal normal bold 40px/49px SF Display;
+letter-spacing: 0.2px;
+color: #FFFFFF;
+    }
+    .sub{
+      text-align: left;
+font: normal normal normal 22px/29px SF Display;
+letter-spacing: -0.44px;
+color: #B3B3B3;
+opacity: 1;
+    }
+    .btns{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .j-hollow{
+      @extend .primaryBtn;
+      padding: 10px 0px;
+      text-align: center;
+      border: 1px solid #0044c4 ;
+    }
+    .b-hollow{
+      @extend .primaryBtn;
+      border: 1px solid #FFFFFF;
+border-radius: 3px;
+color: #FFFFFF;
+background: transparent;
+padding: 10px 0px;
+text-align: center;
+&:hover{
+  background: #444444 0% 0% no-repeat padding-box;
+}
+    }
+  }
+}
+.train{
+  position: relative;
+  top: -110px;
+  @media only screen and (max-width: 700px) {
+    position: initial;
+    top: 0px;
+  }
+}
+.training {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  @media only screen and (max-width: 860px) {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  @media only screen and (max-width: 700px) {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column !important;
+  }
+  .appDiv {
+    display: flex;
+    flex-direction: column;
+  }
+  .app {
+    text-align: left;
+    font: normal normal bold 21px/26px SF Display;
+    letter-spacing: 0px;
+    color: #8d8d8d;
+    opacity: 1;
+  }
+  .digital {
+    width: 474px;
+    text-align: left;
+    font: normal normal bold 40px/49px SF Display;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    opacity: 1;
+    @media only screen and (max-width: 860px) {
+      position: initial;
+      width: auto;
+    }
+  }
+  .iphone {
+    position: relative;
+    top: -285px;
+    @media only screen and (max-width: 860px) {
+      position: initial;
+    }
+  }
+  .appStore {
+    text-align: center !important;
+    display: flex;
+    align-items: center;
+    .leaf {
+      display: flex;
+      padding-right: 20px;
+      .storeDay{
+        padding: 0px 10px;
+      }
+    }
+    p {
+      padding: 0% !important;
+      margin: 0% !important;
+      
+    }
+    .store {
+        font: normal normal normal 19px/23px SF Display;
+        letter-spacing: -0.95px;
+        color: #b3b3b3;
+      }
+      .day {
+        font: normal normal 600 19px/23px SF Display;
+        letter-spacing: -0.95px;
+        color: #ffffff;
+      }
+  }
+  
+}
+

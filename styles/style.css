@@ -1,0 +1,505 @@
+p {
+  margin: 0% !important;
+}
+
+.primaryBtn, .corousel-div .card .b-hollow, .corousel-div .card .j-hollow {
+  background: #0058ff 0% 0% no-repeat padding-box;
+  border-radius: 3px;
+  opacity: 1;
+  padding: 10px 70px;
+  font: normal normal medium 17px/20px SF Display;
+  letter-spacing: 0px;
+  color: #ffffff;
+  width: 225px;
+  cursor: pointer;
+}
+.primaryBtn:hover, .corousel-div .card .b-hollow:hover, .corousel-div .card .j-hollow:hover {
+  background: #0044c4 0% 0% no-repeat padding-box;
+}
+
+.holloWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.holloWrap .hollow {
+  text-align: left;
+  font: normal normal medium 16px/19px SF Display;
+  letter-spacing: 0.48px;
+  color: #000000;
+  opacity: 1;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  border-radius: 3px;
+  background: none;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+.holloWrap .hollow:hover {
+  background: #d5d5d5 0% 0% no-repeat padding-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  background: #161616 !important;
+  font-style: SF Display !important;
+  letter-spacing: -0.2 !important;
+  text-align: left !important;
+  font-weight: 500;
+}
+header .nav-link {
+  color: #707070 !important;
+  text-align: left !important;
+}
+header .nav-link:hover {
+  color: #ffffff !important;
+}
+header .log, header .logA {
+  color: #707070 !important;
+  background: inherit;
+  border-left: 2px solid #707070 !important;
+  border-radius: 0% !important;
+  cursor: default !important;
+  text-align: left !important;
+}
+header .logA {
+  border: none !important;
+  cursor: pointer !important;
+}
+header .logA:hover {
+  color: #ffffff !important;
+}
+
+.corousel-div {
+  background: #222222;
+}
+.corousel-div .carousel {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%) !important;
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%) !important;
+  height: auto;
+  max-height: 100vh;
+}
+.corousel-div .carousel .carousel-control-next,
+.corousel-div .carousel .carousel-control-prev {
+  opacity: 1 !important;
+}
+.corousel-div .carousel img {
+  opacity: 0.8 !important;
+}
+.corousel-div .carousel .carousel-indicators .active {
+  width: 25px !important;
+}
+.corousel-div .carousel li {
+  width: 5px !important;
+  border-radius: 7px !important;
+  background-color: white !important;
+  height: 5px;
+}
+.corousel-div .carousel ol.carousel-indicators {
+  padding: 30px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  top: 75%;
+  left: 0%;
+}
+.corousel-div .carousel .carousel-caption {
+  right: 5%;
+  text-align: right;
+  background-color: black;
+  max-width: 300px;
+  left: auto;
+  padding: 5px;
+}
+.corousel-div .carousel .top-left {
+  position: absolute;
+  top: 25%;
+  left: 15%;
+  padding: 20px;
+  max-width: 360px;
+}
+.corousel-div .carousel .top-left .cHead {
+  letter-spacing: -0.73px !important;
+  font-family: Poppins !important;
+  font-style: italic;
+  font-size: 25px;
+  color: #ffffff;
+}
+.corousel-div .carousel .top-left .cSub {
+  color: #e8e8e8;
+}
+.corousel-div .card-img1 {
+  height: 240px;
+  position: relative;
+}
+.corousel-div .card-img2 {
+  height: 280px;
+  position: absolute;
+  left: 20%;
+  top: -18px;
+}
+.corousel-div .card-img3 {
+  height: 340px;
+  position: absolute;
+  left: 50%;
+  top: -45px;
+}
+.corousel-div .card {
+  background: #222222 0% 0% no-repeat padding-box;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+}
+.corousel-div .card .digital1 {
+  text-align: left;
+  font: normal normal bold 40px/49px SF Display;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+.corousel-div .card .sub {
+  text-align: left;
+  font: normal normal normal 22px/29px SF Display;
+  letter-spacing: -0.44px;
+  color: #B3B3B3;
+  opacity: 1;
+}
+.corousel-div .card .btns {
+  display: flex;
+  flex-wrap: wrap;
+}
+.corousel-div .card .j-hollow {
+  padding: 10px 0px;
+  text-align: center;
+  border: 1px solid #0044c4;
+}
+.corousel-div .card .b-hollow {
+  border: 1px solid #FFFFFF;
+  border-radius: 3px;
+  color: #FFFFFF;
+  background: transparent;
+  padding: 10px 0px;
+  text-align: center;
+}
+.corousel-div .card .b-hollow:hover {
+  background: #444444 0% 0% no-repeat padding-box;
+}
+
+.train {
+  position: relative;
+  top: -110px;
+}
+@media only screen and (max-width: 700px) {
+  .train {
+    position: initial;
+    top: 0px;
+  }
+}
+
+.training {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+@media only screen and (max-width: 860px) {
+  .training {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .training {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column !important;
+  }
+}
+.training .appDiv {
+  display: flex;
+  flex-direction: column;
+}
+.training .app {
+  text-align: left;
+  font: normal normal bold 21px/26px SF Display;
+  letter-spacing: 0px;
+  color: #8d8d8d;
+  opacity: 1;
+}
+.training .digital {
+  width: 474px;
+  text-align: left;
+  font: normal normal bold 40px/49px SF Display;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  opacity: 1;
+}
+@media only screen and (max-width: 860px) {
+  .training .digital {
+    position: initial;
+    width: auto;
+  }
+}
+.training .iphone {
+  position: relative;
+  top: -285px;
+}
+@media only screen and (max-width: 860px) {
+  .training .iphone {
+    position: initial;
+  }
+}
+.training .appStore {
+  text-align: center !important;
+  display: flex;
+  align-items: center;
+}
+.training .appStore .leaf {
+  display: flex;
+  padding-right: 20px;
+}
+.training .appStore .leaf .storeDay {
+  padding: 0px 10px;
+}
+.training .appStore p {
+  padding: 0% !important;
+  margin: 0% !important;
+}
+.training .appStore .store {
+  font: normal normal normal 19px/23px SF Display;
+  letter-spacing: -0.95px;
+  color: #b3b3b3;
+}
+.training .appStore .day {
+  font: normal normal 600 19px/23px SF Display;
+  letter-spacing: -0.95px;
+  color: #ffffff;
+}
+
+.nutrition .container {
+  padding: 0%;
+}
+.nutrition .row {
+  margin: 0 !important;
+}
+.nutrition .app {
+  text-align: left;
+  font: normal normal bold 21px/26px SF Display;
+  letter-spacing: 0px;
+  color: #8d8d8d;
+}
+.nutrition .digital1 {
+  text-align: left;
+  font: normal normal bold 40px/49px SF Display;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+.nutrition .sub {
+  text-align: left;
+  font: normal normal normal 22px/29px SF Display;
+  letter-spacing: -0.44px;
+  color: #494949;
+}
+.nutrition .row1 img.img-3 {
+  position: relative;
+  left: -12%;
+}
+.nutrition .row1 img.img-2 {
+  position: absolute;
+  right: -10%;
+  top: 4%;
+}
+.nutrition .row3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.price {
+  background-image: url("./../assets/colton.png");
+}
+.price .pTitle {
+  text-align: center;
+  font: normal normal bold 40px/49px SF Display;
+  letter-spacing: 0.2px;
+  color: #000000;
+  opacity: 1;
+  max-width: 450px;
+  color: #ffffff;
+}
+.price .pbox {
+  text-align: center;
+  font: normal normal bold 40px/49px SF Display;
+  letter-spacing: 0.2px;
+  color: #000000;
+  opacity: 1;
+  max-width: 450px;
+}
+.price .card-body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.price .card-title {
+  text-align: center;
+  font: normal normal bold 24px/33px SF Display;
+  letter-spacing: 0.12px;
+  color: #000000;
+  width: 14rem;
+}
+.price .card-text {
+  font: normal normal normal 17px/22px SF Display;
+  letter-spacing: 0px;
+  color: #494949;
+}
+.price .logo1 {
+  position: relative !important;
+  left: -30% !important;
+}
+.price .logo2 {
+  position: absolute;
+  left: 48%;
+}
+
+.blog {
+  background: #ffffff !important;
+}
+.blog .bTitle {
+  text-align: center;
+  font: normal normal bold 40px/49px SF Display;
+  letter-spacing: 0.2px;
+  color: #000000;
+  opacity: 1;
+  max-width: 450px;
+}
+.blog .card {
+  padding: 12px 0px;
+  background: #ffffff;
+}
+.blog .card-text {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 3px 3px;
+  padding: 5%;
+}
+.blog .b-text, .blog .w-text {
+  text-align: left;
+  font: normal normal bold 16px/20px SF Display;
+  letter-spacing: 0.32px;
+  color: #357df6;
+  opacity: 1;
+}
+.blog .w-text {
+  color: #f5a627;
+}
+.blog .para {
+  text-align: left;
+  font: normal normal medium 16px/19px SF Display;
+  letter-spacing: 0.48px;
+  color: #000000;
+  opacity: 1;
+  padding-bottom: 30px;
+}
+.blog .foot {
+  text-align: left;
+  font: normal normal normal 17px/22px SF Display;
+  letter-spacing: -0.26px;
+  color: #494949;
+  opacity: 1;
+}
+.blog .grid .rowflex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.blog .grid .rowflex .sm-col {
+  display: flex;
+  flex-direction: column;
+}
+.blog .grid .rowflex img {
+  padding: 4px;
+}
+
+.shop, .blog {
+  background: #f3f3f3;
+}
+.shop .sTitle, .blog .sTitle {
+  text-align: center;
+  font: normal normal bold 40px/49px SF Display;
+  letter-spacing: 0.2px;
+  color: #000000;
+  opacity: 1;
+  max-width: 450px;
+}
+.shop .card, .blog .card {
+  background: none;
+  border: none;
+}
+.shop .card-img-top, .blog .card-img-top {
+  position: relative;
+}
+.shop .card-group, .blog .card-group {
+  justify-content: center;
+  align-items: center;
+}
+.shop .iTitle, .blog .iTitle {
+  text-align: left;
+  font: italic normal 800 31px/32px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  position: absolute;
+  top: 44%;
+  left: 12%;
+  text-transform: uppercase;
+}
+
+footer {
+  background: #161616 0% 0% no-repeat padding-box;
+  padding: 5% 5%;
+}
+footer .foot {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer .foot .section2, footer .foot .section1 {
+  display: flex;
+  flex-direction: column;
+}
+footer .foot .section2 .title, footer .foot .section1 .title {
+  font: normal normal medium 21px/25px SF Display !important;
+  letter-spacing: 0px;
+  color: #696969 !important;
+  opacity: 1;
+  position: relative;
+}
+footer .foot .section2 ol, footer .foot .section1 ol {
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+footer .foot .section2 ul, footer .foot .section1 ul {
+  text-align: left;
+  font: normal normal normal 19px/25px SF Display;
+  letter-spacing: -0.28px;
+  color: #c8c8bd;
+  padding: 5px 0px;
+}
+footer .foot .section1 {
+  align-items: left;
+  padding-top: 4%;
+}
+footer .foot .section1 .copy {
+  text-align: left;
+  font: normal normal normal 13px/17px SF Display;
+  letter-spacing: -0.2px;
+  color: #C8C8C8;
+}/*# sourceMappingURL=style.css.map */

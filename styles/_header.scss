@@ -1,0 +1,32 @@
+html {
+    scroll-behavior: smooth;
+  }
+header{
+    background: #161616 !important;
+    @include fontStyle();
+    .nav-link{
+        color:$navColor !important;
+        text-align: left !important;
+        
+        &:hover{
+            color:$hoverNav !important;
+        }
+    }
+    .log{
+            color: $navColor !important;
+            background: inherit;
+            border-left: 2px solid $navColor !important;
+            border-radius: 0% !important;
+            cursor: default !important;
+            text-align: left !important;
+        }
+    .logA{
+        @extend .log;
+        border:none !important;
+        cursor: pointer !important;
+        
+        &:hover{
+            color:$hoverNav !important;
+        }
+    }    
+}

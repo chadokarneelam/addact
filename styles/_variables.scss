@@ -1,0 +1,62 @@
+// color codes
+
+$navColor: #707070;
+$hoverNav: #ffffff;
+$medium: 500px;
+
+// mixins
+@mixin fontStyle() {
+  font-style: SF Display !important;
+  letter-spacing: -0.2 !important;
+  text-align: left !important;
+  font-weight: 500;
+}
+@mixin headingBox($widthVal) {
+        text-align: center;
+font: normal normal bold 40px/49px SF Display;
+letter-spacing: 0.2px;
+color: #000000;
+opacity: 1;
+max-width: $widthVal;
+    
+}
+
+// common class
+p{
+    margin: 0% !important;
+}
+.primaryBtn {
+  background: #0058ff 0% 0% no-repeat padding-box;
+  border-radius: 3px;
+  opacity: 1;
+  padding: 10px 70px;
+  font: normal normal medium 17px/20px SF Display;
+  letter-spacing: 0px;
+  color: #ffffff;
+  width: 225px;
+  cursor: pointer;
+  &:hover {
+    background: #0044c4 0% 0% no-repeat padding-box;
+  }
+}
+.holloWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .hollow {
+    text-align: left;
+    font: normal normal medium 16px/19px SF Display;
+    letter-spacing: 0.48px;
+    color: #000000;
+    opacity: 1;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    border-radius: 3px;
+    background: none;
+    padding: 10px 25px;
+    cursor: pointer;
+    &:hover {
+      background: #d5d5d5 0% 0% no-repeat padding-box;
+    }
+  }
+}
